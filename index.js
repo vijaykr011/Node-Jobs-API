@@ -33,7 +33,7 @@ app.use(xss());
 
 //routes
 app.get("/", (req, res) => {
-  res.send('<h1>Testing Connect</h1><a href="/api-docs">Documentation</a>');
+  res.send("<h1>Jobs-Api</h1>");
 });
 
 app.use("/api/v1/auth", authRouter);
